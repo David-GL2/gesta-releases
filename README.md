@@ -12,33 +12,19 @@ Windows hecha con manuales y ayuda puntual de IA, la versión Android un fork vi
 
 ## 📥 Descargas
 
-### Windows
-
-| Versión | Descarga |
-|---------|----------|
-| Online | [gesta_online.zip](https://drive.google.com/file/d/1AXQ9J5f2bAbuzKueRnnpmJsV5e1f5vPb/view?usp=drive_link)
-| Offline | [gesta_offline.zip](https://drive.google.com/file/d/1BNFKXZr7JW6OU94szEmjqVDMhBwjDhEr/view?usp=drive_link)
-
-### Android
-
-| Versión | Descarga |
-|---------|----------|
-| Online | [gesta_online.zip](https://drive.google.com/file/d/15Gw0QKx_HJmjN39Atr6sFPqd6v1AtbSy/view?usp=drive_link)
-| Offline | [gesta_offline.zip](https://drive.google.com/file/d/1kUG58N-Zi8lgRA3cT6PwqcyIJcTlXodm/view?usp=drive_link)
+| Plataforma | Online | Offline |
+|------------|--------|---------|
+| **Windows** | [Descargar](https://drive.google.com/file/d/1AXQ9J5f2bAbuzKueRnnpmJsV5e1f5vPb/view?usp=drive_link) | [Descargar](https://drive.google.com/file/d/1BNFKXZr7JW6OU94szEmjqVDMhBwjDhEr/view?usp=drive_link) |
+| **Android** | [Descargar](https://drive.google.com/file/d/15Gw0QKx_HJmjN39Atr6sFPqd6v1AtbSy/view?usp=drive_link) | [Descargar](https://drive.google.com/file/d/1kUG58N-Zi8lgRA3cT6PwqcyIJcTlXodm/view?usp=drive_link) |
 
 ---
 
 ## 📱 Instalación
 
-### Windows
-1. Descarga el ZIP
-2. Descomprime la carpeta
-3. Ejecuta el archivo `.exe`
-
-### Android
-1. Descarga el ZIP
-2. Descomprime la carpeta
-3. Instala el archivo `.apk`
+| Plataforma | Pasos |
+|------------|-------|
+| **Windows** | Descargar ZIP → Descomprimir → Ejecutar `.exe` |
+| **Android** | Descargar ZIP → Descomprimir → Instalar `.apk` |
 
 ---
 
