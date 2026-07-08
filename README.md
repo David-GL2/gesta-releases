@@ -1,11 +1,13 @@
 # GesTa - Gestor de Tareas
 
-Aplicación para gestionar tareas personales con dos versiones:
+Aplicación para gestionar tareas personales con dos versiones en dos plataformas (Windows/Android):
 
 - **Online**: Con conexión a Firebase (autenticación y sincronización en la nube) para conectar ambas aplicaciones
 - **Offline**: Sin conexión, datos guardados localmente en JSON
-*Proyecto desarrollado para uso personal y como proyecto de estudiante de DAM, no veo relevante subir el codigo ya que no es gran cosa,
- la versión de Windows hecha con manuales y apoyo puntual de IA y la de Adroid un fork vibecodeado.*
+  
+*Proyecto desarrollado para uso personal y como proyecto de estudiante de DAM. El código fuente no está disponible en este repositorio, la versión de 
+Windows hecha con manuales y ayuda puntual de IA, la versión Android un fork vibecodeado.*
+
 ---
 
 ## 📥 Descargas
@@ -14,15 +16,15 @@ Aplicación para gestionar tareas personales con dos versiones:
 
 | Versión | Descarga |
 |---------|----------|
-| Online | [gesta_online.zip](Windows/gesta_online.zip)
-| Offline | [gesta_offline.zip](Windows/gesta_offline.zip)
+| Online | [gesta_online.zip](https://drive.google.com/file/d/1AXQ9J5f2bAbuzKueRnnpmJsV5e1f5vPb/view?usp=drive_link)
+| Offline | [gesta_offline.zip](https://drive.google.com/file/d/1BNFKXZr7JW6OU94szEmjqVDMhBwjDhEr/view?usp=drive_link)
 
 ### Android
 
 | Versión | Descarga |
 |---------|----------|
-| Online | [gesta_online.zip](Android/gesta_online.zip)
-| Offline | [gesta_offline.zip](Android/gesta_offline.zip)
+| Online | [gesta_online.zip](https://drive.google.com/file/d/15Gw0QKx_HJmjN39Atr6sFPqd6v1AtbSy/view?usp=drive_link)
+| Offline | [gesta_offline.zip](https://drive.google.com/file/d/1kUG58N-Zi8lgRA3cT6PwqcyIJcTlXodm/view?usp=drive_link)
 
 ---
 
