@@ -50,3 +50,4 @@ Windows hecha con manuales y ayuda puntual de IA, la versión Android un fork vi
 - Hive / JSON (Offline)
 
 ---
+![Captura de la app](holaaaa.JPG)
