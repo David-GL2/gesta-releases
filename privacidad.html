@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Política de Privacidad - GesTa</title>
+
+    <meta
+        name="description"
+        content="Política de privacidad de GesTa, gestor de tareas offline para Windows."
+    >
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="assets/images/logo.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
+    <style>
+
+        /* =========================
+           PRIVACY PAGE
+        ========================= */
+
+        .privacy-page {
+            min-height: calc(100vh - 140px);
+            padding: 60px 0 80px;
+        }
+
+        .privacy-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .privacy-content h1 {
+            font-size: 42px;
+            line-height: 1.15;
+            margin: 0 0 10px;
+        }
+
+        .privacy-content .last-updated {
+            color: #757575;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+
+        .privacy-content h2 {
+            font-size: 24px;
+            color: #ffffff;
+            margin-top: 38px;
+            margin-bottom: 12px;
+        }
+
+        .privacy-content p,
+        .privacy-content li {
+            color: #b0b0b0;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .privacy-content p {
+            margin-bottom: 16px;
+        }
+
+        .privacy-content ul {
+            padding-left: 24px;
+            margin-bottom: 20px;
+        }
+
+        .privacy-content li {
+            margin-bottom: 8px;
+        }
+
+        .privacy-content strong {
+            color: #ffffff;
+        }
+
+        .back-link {
+            display: inline-flex;
+            margin-top: 32px;
+            color: #42a5f5;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =========================
+           PRIVACY NAV
+        ========================= */
+
+        .privacy-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+
+            background: rgba(18, 18, 18, 0.92);
+
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        .privacy-nav-container {
+            max-width: 1200px;
+            height: 68px;
+
+            margin: 0 auto;
+            padding: 0 40px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .privacy-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            color: #ffffff;
+            text-decoration: none;
+
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        .privacy-brand img {
+            width: 32px;
+            height: 32px;
+
+            max-width: 32px;
+            max-height: 32px;
+
+            object-fit: contain;
+            display: block;
+        }
+
+        .privacy-nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+
+            list-style: none;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        .privacy-nav-links a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 15px;
+
+            transition: color 0.2s ease;
+        }
+
+        .privacy-nav-links a:hover {
+            color: #ffffff;
+        }
+
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        .privacy-footer {
+            border-top: 1px solid #2a2a2a;
+
+            padding: 32px 24px;
+
+            text-align: center;
+
+            color: #757575;
+            font-size: 14px;
+        }
+
+        .privacy-footer p {
+            margin: 6px 0;
+        }
+
+        .privacy-footer a {
+            color: #42a5f5;
+            text-decoration: none;
+        }
+
+        .privacy-footer a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 768px) {
+
+            .privacy-nav-container {
+                padding: 0 20px;
+            }
+
+            .privacy-nav-links {
+                gap: 16px;
+            }
+
+            .privacy-page {
+                padding: 40px 20px 60px;
+            }
+
+            .privacy-content h1 {
+                font-size: 34px;
+            }
+
+            .privacy-content h2 {
+                font-size: 21px;
+            }
+
+            .privacy-content p,
+            .privacy-content li {
+                font-size: 15px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+
+            .privacy-nav-container {
+                height: 60px;
+                padding: 0 16px;
+            }
+
+            .privacy-brand {
+                font-size: 17px;
+            }
+
+            .privacy-brand img {
+                width: 28px;
+                height: 28px;
+
+                max-width: 28px;
+                max-height: 28px;
+            }
+
+            .privacy-nav-links {
+                gap: 10px;
+            }
+
+            .privacy-nav-links a {
+                font-size: 13px;
+            }
+
+            .privacy-page {
+                padding: 32px 16px 50px;
+            }
+
+            .privacy-content h1 {
+                font-size: 30px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     NAV
+========================= -->
+
+<nav class="privacy-nav">
+
+    <div class="privacy-nav-container">
+
+        <a
+            href="index.html"
+            class="privacy-brand"
+        >
+
+            <img
+                src="assets/images/logo.png"
+                alt="GesTa"
+            >
+
+            <span>GesTa</span>
+
+        </a>
+
+
+        <ul class="privacy-nav-links">
+
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+
+            <li>
+                <a href="index.html#caracteristicas">
+                    Características
+                </a>
+            </li>
+
+            <li>
+                <a href="index.html#vistazo">
+                    Capturas
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =========================
+     PRIVACY CONTENT
+========================= -->
+
+<main class="privacy-page">
+
+    <div class="privacy-content">
+
+        <span class="eyebrow">
+            Privacidad
+        </span>
+
+        <h1>
+            Política de Privacidad
+        </h1>
+
+        <p class="last-updated">
+            Última actualización: 19 de agosto de 2026
+        </p>
+
+
+        <p>
+            <strong>GesTa</strong> es una aplicación de escritorio para
+            Windows diseñada para gestionar tareas de forma local.
+            Esta política explica cómo se manejan los datos cuando utilizas
+            la aplicación.
+        </p>
+
+
+        <h2>
+            1. Datos que recopilamos
+        </h2>
+
+        <p>
+            <strong>No recopilamos ningún dato personal.</strong>
+            GesTa no solicita ni almacena información como nombres,
+            correos electrónicos, direcciones IP o datos de ubicación.
+        </p>
+
+
+        <h2>
+            2. Almacenamiento local
+        </h2>
+
+        <p>
+            Las tareas que creas en GesTa se almacenan localmente en un
+            archivo <strong>tasks.json</strong> dentro de la carpeta de
+            la aplicación.
+        </p>
+
+        <p>
+            Este archivo permanece en el equipo del usuario y
+            <strong>no se envía a ningún servidor externo.</strong>
+        </p>
+
+
+        <h2>
+            3. Servicios de terceros
+        </h2>
+
+        <p>
+            GesTa no utiliza servicios de terceros destinados a recopilar
+            datos de los usuarios.
+        </p>
+
+        <p>
+            La aplicación no incluye sistemas de analítica de comportamiento,
+            publicidad ni herramientas de seguimiento.
+        </p>
+
+
+        <h2>
+            4. Conexión a Internet
+        </h2>
+
+        <p>
+            GesTa está diseñada para funcionar de forma local y no requiere
+            una conexión permanente a Internet para gestionar tus tareas.
+        </p>
+
+        <p>
+            La aplicación puede requerir conexión a Internet durante el
+            proceso de adquisición o verificación de la licencia a través
+            de Microsoft Store, dependiendo del funcionamiento de la
+            plataforma.
+        </p>
+
+
+        <h2>
+            5. Seguridad
+        </h2>
+
+        <p>
+            Tus tareas se almacenan localmente en tu propio equipo.
+            GesTa no realiza copias de estos datos en servidores externos.
+        </p>
+
+        <p>
+            El usuario es responsable de mantener protegido su dispositivo
+            y realizar las copias de seguridad que considere necesarias.
+        </p>
+
+
+        <h2>
+            6. Exportación de datos
+        </h2>
+
+        <p>
+            GesTa permite exportar la información de tus tareas a formatos
+            como <strong>CSV</strong> o <strong>PDF</strong>.
+        </p>
+
+        <p>
+            Estas exportaciones se realizan localmente y permanecen bajo
+            el control del usuario.
+        </p>
+
+
+        <h2>
+            7. Contacto
+        </h2>
+
+        <p>
+            Si tienes alguna pregunta relacionada con esta política de
+            privacidad, puedes contactar con el desarrollador a través de
+            los canales oficiales asociados a GesTa, incluyendo la
+            Microsoft Store o el repositorio oficial de GitHub.
+        </p>
+
+
+        <h2>
+            8. Cambios en esta política
+        </h2>
+
+        <p>
+            Esta política puede actualizarse ocasionalmente para reflejar
+            cambios en la aplicación o en sus características.
+            Cualquier modificación será publicada en esta página junto
+            con una nueva fecha de actualización.
+        </p>
+
+
+        <a
+            href="index.html"
+            class="back-link"
+        >
+            ← Volver a GesTa
+        </a>
+
+    </div>
+
+</main>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="privacy-footer">
+
+    <p>
+        © 2026 GesTa. Todos los derechos reservados.
+    </p>
+
+    <p>
+        <a href="index.html">
+            Inicio
+        </a>
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
