@@ -3,10 +3,9 @@
 Aplicación para gestionar tareas personales con dos versiones en dos plataformas (Windows/Android):
 
 - **Online**: Con conexión a Firebase (autenticación y sincronización en la nube) para conectar ambas aplicaciones
-- **Offline**: Sin conexión, datos guardados localmente en JSON
+- **Offline**: Sin conexión, datos guardados localmente en JSON - La versión de Windows disponible por 4,99€ en la Microsoft Store
   
-*Proyecto desarrollado para uso personal y como proyecto de estudiante de DAM. El código fuente no está disponible en este repositorio, la versión de 
-Windows hecha con manuales y ayuda puntual de IA, la versión Android un fork vibecodeado.*
+*Proyecto desarrollado para uso personal y como proyecto de estudiante de DAM*
 
 ---
 
